@@ -5,6 +5,10 @@ header{
     
     align-items: center;
     border-bottom: 2px dashed @silver;
+    @media @mobile{
+      .flex-wrapper(column);
+    }
+
     nav{
       padding: 30px;
       a{
